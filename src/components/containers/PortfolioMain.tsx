@@ -29,7 +29,7 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">Multi Tenancy Business in USA</Link>
+                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
                 </h3>
               </div>
             </div>
@@ -48,7 +48,7 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">Multi Tenancy Business in USA</Link>
+                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
                 </h3>
               </div>
             </div>
@@ -67,7 +67,7 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">Multi Tenancy Business in USA</Link>
+                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
                 </h3>
               </div>
             </div>
@@ -86,7 +86,7 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">Multi Tenancy Business in USA</Link>
+                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
                 </h3>
               </div>
             </div>
@@ -105,7 +105,7 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">Multi Tenancy Business in USA</Link>
+                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
                 </h3>
               </div>
             </div>
@@ -124,7 +124,7 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">Multi Tenancy Business in USA</Link>
+                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
                 </h3>
               </div>
             </div>
@@ -143,7 +143,7 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">Multi Tenancy Business in USA</Link>
+                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
                 </h3>
               </div>
             </div>
@@ -162,7 +162,7 @@ const PortfolioMain = () => {
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">Multi Tenancy Business in USA</Link>
+                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
                 </h3>
               </div>
             </div>

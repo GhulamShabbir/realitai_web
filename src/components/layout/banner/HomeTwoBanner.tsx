@@ -65,13 +65,13 @@ const HomeTwoBanner = () => {
               </div>
               <div className="banner-two__content">
                 <h1 className="title-anim">
-                  THE <span>MULTI-TENANCY</span> AGENCY FOR EXCELLENT SERVICES
+                  THE <span>IT & AI Training and Development</span> AGENCY FOR EXCELLENT SERVICES
                 </h1>
                 <div className="banner-two__content-cta section__content-cta">
                   <div className="paragraph">
                     <p>
                       
-Realitai is a multi-tenancy business cloud agency, specializing in providing
+Realitai is an IT & AI Training and Development Agency, specializing in providing
 comprehensive web, mobile, and Web3 UX design solutions across various businesses for improved performance metrics.
                     </p>
                   </div>

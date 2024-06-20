@@ -54,7 +54,7 @@ const HomeFourBanner = () => {
               </div>
               <div className="banner-four__title">
                 <h1>
-                  i am a digital designer
+                  I am a digital designer
                   <Link className="frame g-ban-frame" href="about-us">
                     <Image src={videoframethree} alt="Image" />
                     <i className="fa-solid fa-arrow-up-right"></i>

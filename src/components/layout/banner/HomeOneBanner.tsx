@@ -53,7 +53,7 @@ const HomeOneBanner = () => {
             <div className="col-12">
               <div className="banner__content">
                 <h1 className="text-uppercase text-start fw-9 mb-0 title-anim">
-                  We aspire to lead in <span className="text-stroke">multi-tenancy,</span>
+                  We aspire to lead in <span className="text-stroke">IT & AI Training and Development in Islamabad, Pakistan,</span>
                   <span className="interval">
                     <i className="icon-arrow-top-right"></i> empowering</span>
                   diverse businesses.
@@ -62,7 +62,7 @@ const HomeOneBanner = () => {
                 <div className="banner__content-inner">
                   <p>
                     
-Realitai is a multi-tenancy business cloud agency, specializing in providing
+Realitai is a IT & AI Training and Development Agency, specializing in providing
 comprehensive web, mobile, and Web3 UX design solutions across various businesses for improved performance metrics.
                   </p>
                   <div className="cta section__content-cta">

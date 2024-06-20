@@ -44,7 +44,7 @@ const CmnBanner = ({ title, navigation, parent, parentLink }: BannerProps) => {
             <div className="col-12 col-lg-7 col-xl-5">
               <div className="text-center text-lg-start">
                 <p className="primary-text">
-                  We at Realitai;re the Pakistan-based top-notch training and development agency committed to
+                  We at Realitai;re the Pakistan-based top-notch IT & AI Training and Development Agency committed to
                   partnering with good companies and hiring the right people for
                   the right roles.
                 </p>

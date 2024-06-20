@@ -49,7 +49,7 @@ const HomeThreeBanner = () => {
                     <div className="col-12 col-lg-9 offset-lg-3 col-xl-7 offset-xl-4">
                       <div className="banner-three__content">
                         <h1 className="light-title">
-                          Awesome IT Services for Your Business
+                          Awesome IT & AI Training and Development Services for You.
                         </h1>
                         <div className="section__content-cta cta">
                           <div className="arrow-wrapper d-none d-md-block">
@@ -82,7 +82,7 @@ const HomeThreeBanner = () => {
                     <div className="col-12 col-lg-9 offset-lg-3 col-xl-7 offset-xl-4">
                       <div className="banner-three__content">
                         <h1 className="light-title">
-                          Awesome IT Services for Your Business
+                          Awesome IT & AI Services for Your Business
                         </h1>
                         <div className="section__content-cta cta">
                           <div className="arrow-wrapper d-none d-md-block">
@@ -115,7 +115,7 @@ const HomeThreeBanner = () => {
                     <div className="col-12 col-lg-9 offset-lg-3 col-xl-7 offset-xl-4">
                       <div className="banner-three__content">
                         <h1 className="light-title">
-                          Awesome IT Services for Your Business
+                          Awesome IT & AI Services for Your Business
                         </h1>
                         <div className="section__content-cta cta">
                           <div className="arrow-wrapper d-none d-md-block">

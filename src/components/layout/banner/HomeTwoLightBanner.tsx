@@ -68,7 +68,7 @@ const HomeTwoLightBanner = () => {
                   <div className="paragraph">
                     <p>
                       
-Realitai is the training and development agency, specializing in providing trainings as well as
+Realitai is an IT & AI Training and Development Agency, specializing in providing trainings as well as
 comprehensive web, mobile, and Web3 UX design solutions across various businesses for improved performance metrics.
                     </p>
                   </div>

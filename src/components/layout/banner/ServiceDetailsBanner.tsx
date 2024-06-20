@@ -11,7 +11,7 @@ const ServiceDetailsBanner = () => {
         <div className="row gaper align-items-center">
           <div className="col-12 col-lg-5 col-xl-7">
             <div className="text-center text-lg-start">
-              <h2 className="title title-anim">TRAINING & DEVELOPMENT</h2>
+              <h2 className="title title-anim">IT & AI TRAINING & DEVELOPMENT</h2>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
@@ -24,7 +24,7 @@ const ServiceDetailsBanner = () => {
                     <Link href="our-services">Our Services</Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
-                    TRAINING & DEVELOPMENT
+                    IT & AI TRAINING & DEVELOPMENT
                   </li>
                 </ol>
               </nav>
