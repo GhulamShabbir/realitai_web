@@ -100,14 +100,14 @@ const Agency = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-              Realitai: Islamabad-Based IT Solutions Studio Empowering our Businesses with Expert Software & IT Training and Development"
+              Realitai: IT & AI Solutions' Studio Empowering our Businesses with Expert Software and IT & AI Training and Development"
               </h2>
               <div className="paragraph">
                 <p>
                   Bring to the table win-win survival strategies to ensure
                   proactive domination. At the end of the day, going forward, a
                   new normal that has evolved from generation on the runway
-                  heading towards a streamlined cloud solution going forward
+                  heading towards a streamlined solution going forward
                   porttitor dictum sapien.
                 </p>
               </div>
