@@ -118,7 +118,7 @@ const FooterTwo = () => {
               </div>
               <div className="paragraph">
                 <p>
-                  Welcome to our digital agency We specialize in helping
+                  Welcome to REALITAI We specialize in helping
                   business most like yours succeed online. From website design
                   and development.
                 </p>
@@ -183,7 +183,7 @@ const FooterTwo = () => {
                 </Link>
                 <Link href="mailto:info@realitai.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info@realitai.com
+                  info@realitai.net
                 </Link>
               </div>
             </div>

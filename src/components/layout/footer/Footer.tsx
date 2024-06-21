@@ -23,7 +23,7 @@ const Footer = () => {
                   target="_blank"
                 >
                   <i className="fa-sharp fa-solid fa-location-dot"></i>
-                  Lower Ground Floor, Media Fundation Building, G-8 Markaz, Islamabad, Pakistan
+                  Lower Ground Floor, Media Foundation Building, G-8 Markaz, Islamabad, Pakistan
                 </Link>
                 <Link href="tel:406-555-0120">
                   <i className="fa-sharp fa-solid fa-phone-volume"></i>
@@ -31,7 +31,7 @@ const Footer = () => {
                 </Link>
                 <Link href="mailto:info@realitai.com">
                   <i className="fa-sharp fa-solid fa-envelope"></i>
-                  info@realitai.com
+                  info@realitai.net
                 </Link>
               </div>
               <div className="footer__cta text-start">
@@ -71,7 +71,7 @@ const Footer = () => {
               </div>
               <div className="footer__single-content">
                 <p>
-                  Welcome to our digital agency We specialize in helping
+                  Welcome to REALITAI We specialize in helping
                   business most like yours succeed online.
                 </p>
                 <div className="footer__single-form">

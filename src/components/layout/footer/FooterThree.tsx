@@ -27,19 +27,19 @@ const FooterThree = () => {
                       target="_blank"
                     >
                       <i className="fa-sharp fa-solid fa-location-dot"></i>
-                      Lower Ground Floor, Media Fundation Building, G-8 Markaz, Islamabad, Pakistan.
+                      Lower Ground Floor, Media Foundation Building, G-8 Markaz, Islamabad, Pakistan.
                     </Link>
                   </li>
                   <li>
                     <Link href="tel:406-555-0120">
                       <i className="fa-sharp fa-solid fa-phone-volume"></i>
-                      (406) 555-4120
+                      (051) 555-4120
                     </Link>
                   </li>
                   <li>
                     <Link href="mailto:info@realitai.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info@realitai.com
+                      info@realitai.net
                     </Link>
                   </li>
                 </ul>
@@ -80,7 +80,7 @@ const FooterThree = () => {
                   <li>
                     <Link href="mailto:info@realitai.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info@realitai.com
+                      info@realitai.net
                     </Link>
                   </li>
                 </ul>
@@ -117,7 +117,7 @@ const FooterThree = () => {
                   <li>
                     <Link href="mailto:info@realitai.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info@realitai.com
+                      info@realitai.net
                     </Link>
                   </li>
                 </ul>
@@ -158,7 +158,7 @@ const FooterThree = () => {
                   <li>
                     <Link href="mailto:info@realitai.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info@realitai.com
+                      info@realitai.net
                     </Link>
                   </li>
                 </ul>
@@ -195,7 +195,7 @@ const FooterThree = () => {
                   <li>
                     <Link href="mailto:info@realitai.com">
                       <i className="fa-sharp fa-solid fa-envelope"></i>
-                      info@realitai.com
+                      info@realitai.net
                     </Link>
                   </li>
                 </ul>
