@@ -3,9 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import banneronethumb from "public/images/banner/multitenancy.jpg";
-import star from "public/images/star.png";
-import videoframe from "public/images/video-frame.png";
+import banneronethumb from "../../../../public/images/banner/multitenancy.jpg";
+import star from "../../../../public/images/star.png";
+import videoframe from "../../../../public/images/video-frame.png";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
 
 gsap.registerPlugin(ScrollTrigger);

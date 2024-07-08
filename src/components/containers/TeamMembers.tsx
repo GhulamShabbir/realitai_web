@@ -4,13 +4,13 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import one from "public/images/teams/one.png";
-import two from "public/images/teams/two.png";
-import three from "public/images/teams/three.png";
-import four from "public/images/teams/four.png";
-import five from "public/images/teams/five.png";
-import six from "public/images/teams/six.png";
-import seven from "public/images/teams/7.png";
+import one from "../../../public/images/teams/one.png";
+import two from "../../../public/images/teams/two.png";
+import three from "../../../public/images/teams/three.png";
+import four from "../../../public/images/teams/four.png";
+import five from "../../../public/images/teams/five.png";
+import six from "../../../public/images/teams/six.png";
+import seven from "../../../public/images/teams/7.png";
 
 const TeamMembers = () => {
   return (

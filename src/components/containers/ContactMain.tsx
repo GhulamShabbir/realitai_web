@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import phone from "public/images/phone.png";
-import mail from "public/images/mail.png";
-import location from "public/images/location.png";
-import time from "public/images/time.png";
+import phone from "../../../public/images/phone.png";
+import mail from "../../../public/images/mail.png";
+import location from "../../../public/images/location.png";
+import time from "../../../public/images/time.png";
 
 const ContactMain = () => {
   useEffect(() => {

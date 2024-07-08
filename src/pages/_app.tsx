@@ -5,10 +5,10 @@ import type { AppProps } from "next/app";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // font awesome 6
-import "public/icons/font-awesome/css/all.css";
+import "../../public/images/award-thumb.jpeg";
 
 // custom icons
-import "public/icons/glyphter/css/giga.css";
+import "../../public/images/cta-two-bg.png";
 
 // main scss
 import "@/styles/main.scss";
