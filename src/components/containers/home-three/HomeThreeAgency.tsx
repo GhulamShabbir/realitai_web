@@ -23,15 +23,14 @@ const HomeThreeAgency = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-                We are digital creative agency in London
+              REALITAI is Empowering Innovations with AI / GenAI
               </h2>
               <div className="paragraph">
                 <p>
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation on the runway
-                  heading towards a streamlined cloud solution going forward
-                  porttitor dictum sapien.
+                REALITAI is a fusion of 'reality' and 'AI'. We specialize in innovative technologies, artificial intelligence, and data analysis. Our expertise in developing cutting-edge AI models and custom solutions to address emerging business needs sets our company apart in the industry.
+REALITAI was established in 2024 as a Generative AI and AI-based Software and Smart Solutions company.
+We offer comprehensive services, including solution design, planning, and development, consultancy, training, and IT services, to help our esteemed customers enhance their entire process of planning, development, implementation, change management, and post-implementation support. With extensive experience in IT infrastructure deployment, software development, web development, data warehousing, mission-critical enterprise solutions, and quality IT training, REALITAI is a trusted partner for businesses seeking innovative solutions.
+
                 </p>
               </div>
               <div className="cta section__content-cta">

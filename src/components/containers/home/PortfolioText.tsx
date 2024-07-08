@@ -4,14 +4,14 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import one from "public/images/portfolio/one.avif";
-import two from "public/images/portfolio/two.jpg";
-import three from "public/images/portfolio/three.jpg";
-import four from "public/images/portfolio/four.jpg";
-import five from "public/images/portfolio/five.avif";
-import six from "public/images/portfolio/six.jpg";
-import seven from "public/images/portfolio/seven.jpg";
-import dot from "public/images/portfolio/dot.png";
+import one from "../../../../public/images/portfolio/one.avif";
+import two from "../../../../public/images/portfolio/two.jpg";
+import three from "../../../../public/images/portfolio/three.jpg";
+import four from "../../../../public/images/portfolio/four.jpg";
+import five from "../../../../public/images/portfolio/five.avif";
+import six from "../../../../public/images/portfolio/six.jpg";
+import seven from "../../../../public/images/portfolio/seven.jpg";
+import dot from "../../../../public/images/portfolio/dot.png";
 
 const PortfolioText = () => {
   const [hover, setHover] = useState(0);
