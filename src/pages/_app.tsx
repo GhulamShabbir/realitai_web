@@ -1,14 +1,14 @@
 import React, { Suspense } from "react";
 import type { AppProps } from "next/app";
-
+import "../global.css";
 // bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 
 // font awesome 6
-import "public/icons/font-awesome/css/all.css";
+import "../../public/icons/font-awesome/css/all.css";
 
 // custom icons
-import "public/icons/glyphter/css/giga.css";
+import "../../public/icons/glyphter/css/giga.css";
 
 // main scss
 import "@/styles/main.scss";

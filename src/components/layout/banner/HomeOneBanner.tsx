@@ -3,9 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import banneronethumb from "public/images/banner/multitenancy.jpg";
-import star from "public/images/star.png";
-import videoframe from "public/images/video-frame.png";
+import banneronethumb from "../../../../public/images/banner/multitenancy.jpg";
+import star from "../../../../public/images/star.png";
+import videoframe from "../../../../public/images/video-frame.png";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -53,12 +53,11 @@ const HomeOneBanner = () => {
             <div className="col-12">
               <div className="banner__content">
                 <h1 className="text-uppercase text-start fw-9 mb-0 title-anim">
-                  We aspire to lead in <span className="text-stroke">IT & AI Training and Development in Islamabad, Pakistan,</span>
+                Empowering Innovations with<span className="text-stroke">AI / GenAI</span>
                   <span className="interval">
-                    <i className="icon-arrow-top-right"></i> empowering</span>
+                    <i className="icon-arrow-top-right"></i>empowering</span>
                   diverse businesses.
                 </h1>
-
                 <div className="banner__content-inner">
                   <p>
                     

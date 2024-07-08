@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import phone from "public/images/phone.png";
-import mail from "public/images/mail.png";
-import location from "public/images/location.png";
-import time from "public/images/time.png";
+import phone from "../../../public/images/phone.png";
+import mail from "../../../public/images/mail.png";
+import location from "../../../public/images/location.png";
+import time from "../../../public/images/time.png";
+import form  from "../../../public/images/form.png";
 
 const ContactMain = () => {
   return (
@@ -84,20 +85,58 @@ const ContactMain = () => {
               <div className="row gaper">
                 <div className="col-12 col-lg-6">
                   <div className="contact__map fade-top">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20342.411046372905!2d-74.16638039276373!3d40.719832743885284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1649562691355!5m2!1sen!2sbd"
+                    <ul className="contact-main__form  fade-top">
+                      <li className="">
+                        <h4>General&nbsp;enquiry</h4>
+                      </li>
+                      <li className="row gape">
+                        <Link href="../../pages/contact-us.tsx">
+                          Sales enquiry
+                        </Link>
+                      </li>
+                      <li className="">
+                        <Link href="../../pages/contact-us.tsx">
+                          Media enquiry
+                        </Link>
+                      </li>
+                      <li className="">
+                        <Link href="../../pages/contact-us.tsx">
+                          Download enquiry
+                        </Link>
+                      </li>
+                      <li className="form-cta justify-content-start">
+                        <button
+                          type="submit"
+                          className="btn btn--primary pt-10"
+                        >
+                          Get A Qute
+                        </button>
+                      </li>
+                    </ul>
+                    <div>
+                    <Image src={form} alt="Image" />
+                    </div>
+
+                    {/* <iframe
+                      src="/src/components/containers/RegisterForm.tsx"
                       width="100"
                       height="600"
-                      style={{ border: "0px" }}
+                      style={{ border: "10px" }}
                       allowFullScreen
                       loading="lazy"
                       referrerPolicy="no-referrer-when-downgrade"
-                    ></iframe>
+                    ></iframe> */}
                   </div>
                 </div>
+
+                {/* Right Side */}
                 <div className="col-12 col-lg-6">
                   <div className="contact-main__form  fade-top">
-                    <h3>Leave A Message</h3>
+                    <h3
+                      style={{ marginLeft: 50, padding: 10, borderRadius: 6 }}
+                    >
+                      General Enquiry
+                    </h3>
                     <form
                       action="#"
                       method="post"
@@ -109,15 +148,16 @@ const ContactMain = () => {
                             type="text"
                             name="contact-name"
                             id="contactName"
-                            placeholder="Name"
+                            placeholder="First Name"
                           />
                         </div>
+
                         <div className="group-input ">
                           <input
-                            type="email"
-                            name="contact-email"
-                            id="contactEmail"
-                            placeholder="Email"
+                            type="text"
+                            name="contact-name"
+                            id="contactName"
+                            placeholder="Last Name"
                           />
                         </div>
                       </div>
@@ -129,6 +169,15 @@ const ContactMain = () => {
                           <option value="3">Pricing</option>
                           <option value="4">Support</option>
                         </select>
+                      </div>
+
+                      <div className="group-input ">
+                        <input
+                          type="email"
+                          name="contact-email"
+                          id="contactEmail"
+                          placeholder="Email"
+                        />
                       </div>
                       <div className="group-input ">
                         <textarea
