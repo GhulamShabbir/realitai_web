@@ -100,7 +100,7 @@ const Agency = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-              Realitai: IT & AI Solutions' Studio Empowering our Businesses with Expert Software and IT & AI Training and Development"
+              {`Realitai: IT & AI Solutions' Studio Empowering our Businesses with Expert Software and IT & AI Training and Development`}
               </h2>
               <div className="paragraph">
                 <p>

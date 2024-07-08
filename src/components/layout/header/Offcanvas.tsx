@@ -56,6 +56,7 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
     return () => {
       window.removeEventListener("resize", handleResizeHeader);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const closeNav = () => {

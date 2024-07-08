@@ -110,8 +110,8 @@ const RegisterForm = () => {
                                             <div className="group-input drt">
                                                 <select className="subject">
                                                     <option data-display="Subject">Highest Qualification</option>
-                                                    <option value="1">Undergraduate (Bachelor's)</option>
-                                                    <option value="2">Graduate (Master's)</option>
+                                                    <option value="1">{`Undergraduate (Bachelor's)`}</option>
+                                                    <option value="2">{`Graduate (Master's)`}</option>
                                                     <option value="3">Post-Graduate (PhD)</option>
                                                 </select>
                                             </div>
