@@ -3,12 +3,24 @@ import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import hrone from "public/images/projects/hr-one.png";
-import hrtwo from "public/images/projects/hr-two.png";
-import hrthree from "public/images/projects/hr-three.png";
-import hrfour from "public/images/projects/hr-four.png";
-import hrfive from "public/images/projects/hr-five.png";
-import hrsix from "public/images/projects/hr-six.png";
+
+//frompublic
+ let hrone = "/images/projects/hr-one.png";
+
+//frompublic
+ let hrtwo = "/images/projects/hr-two.png";
+
+//frompublic
+ let hrthree = "/images/projects/hr-three.png";
+
+//frompublic
+ let hrfour = "/images/projects/hr-four.png";
+
+//frompublic
+ let hrfive = "/images/projects/hr-five.png";
+
+//frompublic
+ let hrsix = "/images/projects/hr-six.png";
 
 gsap.registerPlugin(ScrollTrigger);
 const ProjectMain = () => {

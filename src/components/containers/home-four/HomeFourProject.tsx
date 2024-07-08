@@ -1,16 +1,16 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import one from "public/images/projects/one.png";
-import two from "public/images/projects/two.png";
-import three from "public/images/projects/three.png";
-import four from "public/images/projects/four.png";
-import five from "public/images/projects/five.png";
-import six from "public/images/projects/six.png";
-import seven from "public/images/projects/seven.png";
-import eight from "public/images/projects/eight.png";
 
 const HomeFourProject = () => {
+  let one = "/images/projects/one.png";
+  let two = "/images/projects/two.png";
+  let three = "/images/projects/three.png";
+  let four = "/images/projects/four.png";
+  let five = "/images/projects/five.png";
+  let six = "/images/projects/six.png";
+  let seven = "/images/projects/seven.png";
+  let eight = "/images/projects/eight.png";
   return (
     <section className="section projects-s pt-0 fade-wrapper">
       <div className="container">

@@ -1,16 +1,17 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import eleven from "public/images/portfolio/eleven.jpg";
-import twelve from "public/images/portfolio/twelve.jpg";
-import thirteen from "public/images/portfolio/thirteen.jpg";
-import fourteen from "public/images/portfolio/fourteen.jpg";
-import fifteen from "public/images/portfolio/fifteen.jpg";
-import sixteen from "public/images/portfolio/sixteen.jpg";
-import seventeen from "public/images/portfolio/seventeen.jpg";
-import eighteen from "public/images/portfolio/eighteen.jpg";
 
 const PortfolioMain = () => {
+  let eleven = "/images/portfolio/eleven.jpg";
+let twelve = "/images/portfolio/twelve.jpg";
+let thirteen = "/images/portfolio/thirteen.jpg";
+let fourteen = "/images/portfolio/fourteen.jpg";
+let fifteen = "/images/portfolio/fifteen.jpg";
+let sixteen = "/images/portfolio/sixteen.jpg";
+let seventeen = "/images/portfolio/seventeen.jpg";
+let eighteen = "/images/portfolio/eighteen.jpg";
+
   return (
     <section className="section portfolio-m fade-wrapper">
       <div className="container">

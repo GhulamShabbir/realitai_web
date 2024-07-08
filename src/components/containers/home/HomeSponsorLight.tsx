@@ -3,14 +3,14 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import one from "public/images/sponsor/one-dark.png";
-import two from "public/images/sponsor/two-dark.png";
-import three from "public/images/sponsor/three-dark.png";
-import four from "public/images/sponsor/four-dark.png";
-import five from "public/images/sponsor/five-dark.png";
-import six from "public/images/sponsor/six-dark.png";
 
 const HomeSponsorLight = () => {
+  let one = "/images/sponsor/one-dark.png";
+  let two = "/images/sponsor/two-dark.png";
+  let three = "/images/sponsor/three-dark.png";
+  let four = "/images/sponsor/four-dark.png";
+  let five = "/images/sponsor/five-dark.png";
+  let six = "/images/sponsor/six-dark.png";
   return (
     <div className="sponsor section pb-0">
       <div className="container-fluid">

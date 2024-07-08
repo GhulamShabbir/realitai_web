@@ -2,15 +2,16 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
-import eight from "public/images/news/eight.png";
-import nine from "public/images/news/nine.png";
-import ten from "public/images/news/ten.png";
-import eleven from "public/images/news/eleven.png";
-import twelve from "public/images/news/twelve.png";
-import thirteen from "public/images/news/thirteen.png";
-import fourteen from "public/images/news/fourteen.png";
 
 const BlogMain = () => {
+  let eight = "/images/news/eight.png";
+  let nine = "/images/news/nine.png";
+  let ten = "/images/news/ten.png";
+  let eleven = "/images/news/eleven.png";
+  let twelve = "/images/news/twelve.png";
+  let thirteen = "/images/news/thirteen.png";
+  let fourteen = "/images/news/fourteen.png";
+  
   const [videoActive, setVideoActive] = useState(false);
   return (
     <>

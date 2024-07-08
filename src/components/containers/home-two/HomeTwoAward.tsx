@@ -1,9 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import gigalogo from "public/images/gigalogo.png";
-import star from "public/images/star.png";
-import dotlarge from "public/images/agency/dot-large.png";
 
 const HomeTwoAward = () => {
   return (
@@ -12,7 +9,7 @@ const HomeTwoAward = () => {
         <div className="row gaper align-items-center">
           <div className="col-12 col-lg-6">
             <div className="award__thumb dir-rtl">
-              <Image src={gigalogo} alt="Image" className="unset fade-left" />
+              <Image src={"/images/gigalogo.png"} alt="Image" className="unset fade-left" />
             </div>
           </div>
           <div className="col-12 col-lg-6 col-xxl-5 offset-xxl-1">
@@ -58,10 +55,10 @@ const HomeTwoAward = () => {
           </div>
         </div>
       </div>
-      <Image src={star} alt="Image" className="star" />
-      <Image src={star} alt="Image" className="star-two" />
-      <Image src={dotlarge} alt="Image" className="dot" />
-      <Image src={dotlarge} alt="Image" className="dot-two" />
+      <Image src={"/images/star.png"} alt="Image" className="star" />
+      <Image src={"/images/star.png"} alt="Image" className="star-two" />
+      <Image src={"/images/agency/dot-large.png"} alt="Image" className="dot" />
+      <Image src={"/images/agency/dot-large.png"} alt="Image" className="dot-two" />
     </section>
   );
 };

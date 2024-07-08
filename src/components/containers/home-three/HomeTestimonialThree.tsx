@@ -4,9 +4,15 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import sthumb from "public/images/testimonial/s-thumb.png";
-import sthumbtwo from "public/images/testimonial/s-thumb-two.png";
-import sthumbthree from "public/images/testimonial/s-thumb-three.png";
+
+//frompublic
+ let sthumb = "/images/testimonial/s-thumb.png";
+
+//frompublic
+ let sthumbtwo = "/images/testimonial/s-thumb-two.png";
+
+//frompublic
+ let sthumbthree = "/images/testimonial/s-thumb-three.png";
 
 const HomeTestimonialThree = () => {
   const [nextSlideIndex, setNextSlideIndex] = useState<number>(1);

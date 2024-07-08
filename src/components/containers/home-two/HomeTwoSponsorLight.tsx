@@ -3,12 +3,24 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import one from "public/images/sponsor/one-dark.png";
-import two from "public/images/sponsor/two-dark.png";
-import three from "public/images/sponsor/three-dark.png";
-import four from "public/images/sponsor/four-dark.png";
-import five from "public/images/sponsor/five-dark.png";
-import six from "public/images/sponsor/six-dark.png";
+
+//frompublic
+ let one = "/images/sponsor/one-dark.png";
+
+//frompublic
+ let two = "/images/sponsor/two-dark.png";
+
+//frompublic
+ let three = "/images/sponsor/three-dark.png";
+
+//frompublic
+ let four = "/images/sponsor/four-dark.png";
+
+//frompublic
+ let five = "/images/sponsor/five-dark.png";
+
+//frompublic
+ let six = "/images/sponsor/six-dark.png";
 
 const HomeTwoSponsorLight = () => {
   return (

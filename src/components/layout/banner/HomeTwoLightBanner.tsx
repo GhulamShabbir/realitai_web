@@ -3,7 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import dawn from "public/images/banner/dawn-light.png";
+
+//frompublic
+ let dawn = "/images/banner/dawn-light.png";
 
 gsap.registerPlugin(ScrollTrigger);
 const HomeTwoLightBanner = () => {

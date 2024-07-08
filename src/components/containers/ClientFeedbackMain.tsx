@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import avatar from "public/images/testimonial/avatar.png";
 
 const ClientFeedbackMain = () => {
   return (
@@ -22,7 +21,7 @@ const ClientFeedbackMain = () => {
               <hr />
               <div className="author">
                 <div className="thumb">
-                  <Image src={avatar} alt="Image" />
+                  <Image src={"images/testimonial/avatar.png"} alt="Image" />
                 </div>
                 <div className="author-meta">
                   <h5>Dr Shabbir</h5>
@@ -46,7 +45,7 @@ const ClientFeedbackMain = () => {
               <hr />
               <div className="author">
                 <div className="thumb">
-                  <Image src={avatar} alt="Image" />
+                  <Image src={"images/testimonial/avatar.png"} alt="Image" />
                 </div>
                 <div className="author-meta">
                   <h5>Dr. Shabbir</h5>
@@ -70,7 +69,7 @@ const ClientFeedbackMain = () => {
               <hr />
               <div className="author">
                 <div className="thumb">
-                  <Image src={avatar} alt="Image" />
+                  <Image src={"images/testimonial/avatar.png"} alt="Image" />
                 </div>
                 <div className="author-meta">
                   <h5>Dr Shabbir</h5>
@@ -94,7 +93,7 @@ const ClientFeedbackMain = () => {
               <hr />
               <div className="author">
                 <div className="thumb">
-                  <Image src={avatar} alt="Image" />
+                  <Image src={"images/testimonial/avatar.png"} alt="Image" />
                 </div>
                 <div className="author-meta">
                   <h5>Dr Shabbir</h5>
@@ -118,7 +117,7 @@ const ClientFeedbackMain = () => {
               <hr />
               <div className="author">
                 <div className="thumb">
-                  <Image src={avatar} alt="Image" />
+                  <Image src={"images/testimonial/avatar.png"} alt="Image" />
                 </div>
                 <div className="author-meta">
                   <h5>Dr Shabbir</h5>
@@ -142,7 +141,7 @@ const ClientFeedbackMain = () => {
               <hr />
               <div className="author">
                 <div className="thumb">
-                  <Image src={avatar} alt="Image" />
+                  <Image src={"images/testimonial/avatar.png"} alt="Image" />
                 </div>
                 <div className="author-meta">
                   <h5>Dr Shabbir</h5>

@@ -5,9 +5,15 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import star from "public/images/testimonial/star.png";
-import thumb from "public/images/testimonial/thumb.webp";
-import avatar from "public/images/testimonial/avatar.jpg";
+
+//frompublic
+ let star = "/images/testimonial/star.png";
+
+//frompublic
+ let thumb = "/images/testimonial/thumb.webp";
+
+//frompublic
+ let avatar = "/images/testimonial/avatar.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 const HomeTwoTestimonial = () => {

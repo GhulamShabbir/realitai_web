@@ -3,9 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import nine from "public/images/blog/nine.png";
-import ten from "public/images/blog/ten.png";
-import eleven from "public/images/blog/eleven.png";
+
+//frompublic
+ let nine = "/images/blog/nine.png";
+
+//frompublic
+ let ten = "/images/blog/ten.png";
+
+//frompublic
+ let eleven = "/images/blog/eleven.png";
 
 gsap.registerPlugin(ScrollTrigger);
 const HomeThreeBlog = () => {

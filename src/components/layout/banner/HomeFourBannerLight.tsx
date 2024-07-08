@@ -3,9 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import videoframethree from "public/images/video-frame-three.png";
-import thumbsmall from "public/images/banner/four-thumb-small0-transformed.png";
-import fourthumb from "public/images/banner/four-thumb-small-transformed.webp";
+
+//frompublic
+ let videoframethree = "/images/video-frame-three.png";
+
+//frompublic
+ let thumbsmall = "/images/banner/four-thumb-small0-transformed.png";
+
+//frompublic
+ let fourthumb = "/images/banner/four-thumb-small-transformed.webp";
 
 gsap.registerPlugin(ScrollTrigger);
 const HomeFourBannerLight = () => {

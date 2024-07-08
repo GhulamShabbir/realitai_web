@@ -3,11 +3,6 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import one from "public/images/achievement/one.png";
-import two from "public/images/achievement/two.png";
-import three from "public/images/achievement/three.png";
-import four from "public/images/achievement/four.png";
-import five from "public/images/achievement/five.png";
 
 const OurAchievement = () => {
   return (
@@ -55,52 +50,52 @@ const OurAchievement = () => {
               >
                 <SwiperSlide>
                   <div className="achievements__slider-single">
-                    <Image src={one} alt="Image" />
+                    <Image src={"/images/achievement/one.png"} alt="Image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="achievements__slider-single">
-                    <Image src={two} alt="Image" />
+                    <Image src={"/images/achievement/two.png"} alt="Image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="achievements__slider-single">
-                    <Image src={three} alt="Image" />
+                    <Image src={"/images/achievement/three.png"} alt="Image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="achievements__slider-single">
-                    <Image src={four} alt="Image" />
+                    <Image src={"/images/achievement/four.png"} alt="Image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="achievements__slider-single">
-                    <Image src={five} alt="Image" />
+                    <Image src={"/images/achievement/five.png"} alt="Image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="achievements__slider-single">
-                    <Image src={one} alt="Image" />
+                    <Image src={"/images/achievement/one.png"} alt="Image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="achievements__slider-single">
-                    <Image src={two} alt="Image" />
+                    <Image src={"/images/achievement/two.png"} alt="Image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="achievements__slider-single">
-                    <Image src={three} alt="Image" />
+                    <Image src={"/images/achievement/three.png"} alt="Image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="achievements__slider-single">
-                    <Image src={four} alt="Image" />
+                    <Image src={"/images/achievement/four.png"} alt="Image" />
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
                   <div className="achievements__slider-single">
-                    <Image src={five} alt="Image" />
+                    <Image src={"/images/achievement/five.png"} alt="Image" />
                   </div>
                 </SwiperSlide>
               </Swiper>

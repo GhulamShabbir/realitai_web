@@ -1,14 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import one from "public/images/teams/one.png";
-import two from "public/images/teams/two.png";
-import three from "public/images/teams/three.png";
-import four from "public/images/teams/four.png";
-import five from "public/images/teams/five.png";
-import six from "public/images/teams/six.png";
 
 const TeamMain = () => {
+  let one = "/images/teams/one.png";
+  let two = "/images/teams/two.png";
+  let three = "/images/teams/three.png";
+  let four = "/images/teams/four.png";
+  let five = "/images/teams/five.png";
+  let six = "/images/teams/six.png";
+  
   return (
     <section className="section team-m fade-wrapper">
       <div className="container">

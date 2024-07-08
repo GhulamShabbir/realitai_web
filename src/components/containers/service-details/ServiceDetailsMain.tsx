@@ -1,7 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import thumbone from "public/images/service/thumb-one.png";
-import thumbtwo from "public/images/service/thumb-two.png";
+
+//frompublic
+ let thumbone = "/images/service/thumb-one.png";
+
+//frompublic
+ let thumbtwo = "/images/service/thumb-two.png";
 
 const ServiceDetailsMain = () => {
   return (

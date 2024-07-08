@@ -4,9 +4,15 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import eight from "public/images/portfolio/eight8.jpg";
-import nine from "public/images/portfolio/nine9.jpg";
-import ten from "public/images/portfolio/ten10.jpg";
+
+//frompublic
+ let eight = "/images/portfolio/eight8.jpg";
+
+//frompublic
+ let nine = "/images/portfolio/nine9.jpg";
+
+//frompublic
+ let ten = "/images/portfolio/ten10.jpg";
 
 const HomeThreePortfolio = () => {
   return (

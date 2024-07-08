@@ -1,16 +1,16 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import poster from "public/images/news/poster.png";
-import groupone from "public/images/news/group-one.png";
-import grouptwo from "public/images/news/group-two.png";
-import ten from "public/images/news/ten.png";
-import eleven from "public/images/news/eleven.png";
-import twelve from "public/images/news/twelve.png";
-import thirteen from "public/images/news/thirteen.png";
-import fourteen from "public/images/news/fourteen.png";
 
 const BlogDetailsMain = () => {
+  let poster = "/images/news/poster.png";
+  let groupone = "/images/news/group-one.png";
+  let grouptwo = "/images/news/group-two.png";
+  let ten = "/images/news/ten.png";
+  let eleven = "/images/news/eleven.png";
+  let twelve = "/images/news/twelve.png";
+  let thirteen = "/images/news/thirteen.png";
+  let fourteen = "/images/news/fourteen.png";
   return (
     <section className="section blog-main blog-details fade-wrapper">
       <div className="container">
