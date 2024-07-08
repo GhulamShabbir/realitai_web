@@ -67,12 +67,20 @@ const TeamMembers = () => {
             }}
             className="team-s__slider"
             breakpoints={{
+              1200: {
+                slidesPerView: 5,
+              },
+              992: {
+                slidesPerView: 4,
+              },
               768: {
                 slidesPerView: 3,
-                centeredSlides: true,
               },
               576: {
                 slidesPerView: 2,
+              },
+              375: {
+                slidesPerView: 1,
               },
             }}
           >
