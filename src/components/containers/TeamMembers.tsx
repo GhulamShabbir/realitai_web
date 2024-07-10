@@ -97,14 +97,13 @@ const TeamMembers = () => {
                     >
                       <div className="info">
                         <p>
-                          “Lorem ipsum dolor sit amet consectetur adipiscing
-                          elit
+                        Technical projects are managed, complex problems are solved, and high-performing teams are led by a seasoned senior engineer.
                         </p>
                       </div>
                       <h4>
-                        <Link href="team-single">Sana p. Lesh</Link>
+                        <Link href="team-single">Ataul Mohsin</Link>
                       </h4>
-                      <p>Senior engineer</p>
+                      <p>Senior Engineer</p>
                       <div className="social-alt">
                         <Link
                           href="https://www.facebook.com/"
@@ -140,9 +139,7 @@ const TeamMembers = () => {
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
+                      User-centered designs are crafted, innovative products are developed, and design strategies are driven by a seasoned Sr. Product Designer.
                       </p>
                       <div className="skill-wrap">
                         <div className="skill-bar-single">
