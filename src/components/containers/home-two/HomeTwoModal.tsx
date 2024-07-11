@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import healthcare from "../../../../public/images/healthcare.webp";
+import healthcare from "../../../../public/images/helthcare.jpg";
 import frame from "../../../../public/images/video-frame-two.png";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
 
@@ -29,14 +29,14 @@ const HomeTwoModal = () => {
       tl.to(".healthcare", {
         opacity: 0,
         scale: 1,
-        y: "50%",
+        y: "100%",
         duration: 2,
       });
     }
   }, []);
   return (
     <>
-      <div className="video-modal">
+      <div className="video-modal opacity-50">
         <Image src={healthcare} alt="Image" className="healthcare" />
         <button
           className="video-frame video-btn"

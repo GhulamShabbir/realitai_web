@@ -158,7 +158,7 @@ const TeamMembers = () => {
                           <div className="skill-bar-title">
                             <p>Visual Design</p>
                           </div>
-                          <div className="skill-bar-wrapper" data-percent="90%">
+                          <div className="ski~ll-bar-wrapper" data-percent="90%">
                             <div className="skill-bar">
                               <div className="skill-bar-percent">
                                 <span className="percent-value"></span>
