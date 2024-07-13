@@ -100,15 +100,24 @@ const Agency = () => {
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
               <h2 className="title title-anim">
-              {`Realitai: IT & AI Solutions' Studio Empowering our Businesses with Expert Software and IT & AI Training and Development`}
+                Empowering our Businesses with Expert
+                Software,IT & AI Training and Development
               </h2>
               <div className="paragraph">
                 <p>
-                  Bring to the table win-win survival strategies to ensure
-                  proactive domination. At the end of the day, going forward, a
-                  new normal that has evolved from generation on the runway
-                  heading towards a streamlined solution going forward
-                  porttitor dictum sapien.
+                  REALITAI is a fusion of &#39;reality&#39; and &#39;AI&#39;. We
+                  specialize in innovative technologies, artificial
+                  intelligence, and data analysis. Our expertise in developing
+                  cutting-edge AI models and custom solutions to address
+                  emerging business needs sets our company apart in the
+                  industry. REALITAI was established in 2024 as a Generative AI
+                  and AI-based Software and Smart Solutions company. We offer
+                  comprehensive services, including solution design, planning,
+                  and development, consultancy, training, and IT services, to
+                  help our esteemed customers enhance their entire process of
+                  planning, development, implementation, change management, and
+                  post-implementation support. REALITAI is a trusted
+                  partner for businesses seeking innovative solutions.
                 </p>
               </div>
               <div className="skill-wrap">
