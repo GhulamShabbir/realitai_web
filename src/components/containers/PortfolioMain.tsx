@@ -4,13 +4,13 @@ import Link from "next/link";
 
 const PortfolioMain = () => {
   let eleven = "/images/portfolio/eleven.jpg";
-let twelve = "/images/portfolio/twelve.jpg";
-let thirteen = "/images/portfolio/thirteen.jpg";
-let fourteen = "/images/portfolio/fourteen.jpg";
-let fifteen = "/images/portfolio/fifteen.jpg";
-let sixteen = "/images/portfolio/sixteen.jpg";
-let seventeen = "/images/portfolio/seventeen.jpg";
-let eighteen = "/images/portfolio/eighteen.jpg";
+  let twelve = "/images/portfolio/twelve.jpg";
+  let thirteen = "/images/portfolio/thirteen.jpg";
+  let fourteen = "/images/portfolio/fourteen.jpg";
+  let fifteen = "/images/portfolio/fifteen.jpg";
+  let sixteen = "/images/portfolio/sixteen.jpg";
+  let seventeen = "/images/portfolio/seventeen.jpg";
+  let eighteen = "/images/portfolio/eighteen.jpg";
 
   return (
     <section className="section portfolio-m fade-wrapper">
@@ -30,7 +30,10 @@ let eighteen = "/images/portfolio/eighteen.jpg";
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
+                  <Link href="service-single">
+                    IT & AI Training and Development Organization in Islamabad,
+                    Pakistan. Tenancy Business in USA
+                  </Link>
                 </h3>
               </div>
             </div>
@@ -49,7 +52,10 @@ let eighteen = "/images/portfolio/eighteen.jpg";
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
+                  <Link href="service-single">
+                    IT & AI Training and Development Organization in Islamabad,
+                    Pakistan. Tenancy Business in USA
+                  </Link>
                 </h3>
               </div>
             </div>
@@ -68,7 +74,10 @@ let eighteen = "/images/portfolio/eighteen.jpg";
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
+                  <Link href="service-single">
+                    IT & AI Training and Development Organization in Islamabad,
+                    Pakistan. Tenancy Business in USA
+                  </Link>
                 </h3>
               </div>
             </div>
@@ -87,7 +96,10 @@ let eighteen = "/images/portfolio/eighteen.jpg";
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
+                  <Link href="service-single">
+                    IT & AI Training and Development Organization in Islamabad,
+                    Pakistan. Tenancy Business in USA
+                  </Link>
                 </h3>
               </div>
             </div>
@@ -106,7 +118,10 @@ let eighteen = "/images/portfolio/eighteen.jpg";
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
+                  <Link href="service-single">
+                    IT & AI Training and Development Organization in Islamabad,
+                    Pakistan. Tenancy Business in USA
+                  </Link>
                 </h3>
               </div>
             </div>
@@ -125,7 +140,10 @@ let eighteen = "/images/portfolio/eighteen.jpg";
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
+                  <Link href="service-single">
+                    IT & AI Training and Development Organization in Islamabad,
+                    Pakistan. Tenancy Business in USA
+                  </Link>
                 </h3>
               </div>
             </div>
@@ -144,7 +162,10 @@ let eighteen = "/images/portfolio/eighteen.jpg";
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
+                  <Link href="service-single">
+                    IT & AI Training and Development Organization in Islamabad,
+                    Pakistan. Tenancy Business in USA
+                  </Link>
                 </h3>
               </div>
             </div>
@@ -163,7 +184,9 @@ let eighteen = "/images/portfolio/eighteen.jpg";
                   </Link>
                 </div>
                 <h3 className="light-title-lg">
-                  <Link href="service-single">IT & AI Training and Development Organization in Islamabad, Pakistan. Tenancy Business in USA</Link>
+                  <Link href="service-single">
+                    IT & AI Training and Development Organization & Tenancy Business in USA
+                  </Link>
                 </h3>
               </div>
             </div>
