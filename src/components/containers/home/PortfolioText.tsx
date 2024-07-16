@@ -4,11 +4,11 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import one from "../../../../public/images/portfolio/one.png";
+import one from "../../../../public/images/portfolio/one.jpg";
 import two from "../../../../public/images/portfolio/two.jpg";
 import three from "../../../../public/images/portfolio/three.jpg";
 import four from "../../../../public/images/portfolio/four.jpg";
-import five from "../../../../public/images/portfolio/five.png";
+import five from "../../../../public/images/portfolio/five.jpg";
 import six from "../../../../public/images/portfolio/six.jpg";
 import seven from "../../../../public/images/portfolio/seven.jpg";
 import dot from "../../../../public/images/portfolio/dot.png";
@@ -123,7 +123,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Training & Development</Link>
                 </h4>
               </div>
             </div>
@@ -144,7 +144,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">AI Prompt Engineering</Link>
                 </h4>
               </div>
             </div>
@@ -165,7 +165,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Cloud Computing</Link>
                 </h4>
               </div>
             </div>
@@ -186,7 +186,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Cyber Security</Link>
                 </h4>
               </div>
             </div>
@@ -207,7 +207,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Web Development</Link>
                 </h4>
               </div>
             </div>
@@ -228,7 +228,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">AI Engineering</Link>
                 </h4>
               </div>
             </div>
@@ -263,7 +263,7 @@ const PortfolioText = () => {
                   <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                 </Link>
                 <h4>
-                  <Link href="portfolio">Digital Marketing</Link>
+                  <Link href="portfolio">Cloud Applied Generative AI Engineering</Link>
                 </h4>
               </div>
             </div>

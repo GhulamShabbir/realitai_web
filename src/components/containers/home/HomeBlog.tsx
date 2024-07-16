@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import one from "../../../../public/images/blog/one.png";
+import one from "../../../../public/images/blog/one.jpg";
 import two from "../../../../public/images/blog/two.png";
 
 const HomeBlog = () => {
@@ -24,7 +24,7 @@ const HomeBlog = () => {
             <div className="blog__single fade-top">
               <div className="blog__single-thumb topy-tilt">
                 <Link href="blog-single">
-                  <Image src={one} alt="Image" />
+                  <Image src={one} alt="Image" className="opacity-50" />
                 </Link>
               </div>
               <div className="blog__single-content">
@@ -47,7 +47,7 @@ const HomeBlog = () => {
             <div className="blog__single fade-top">
               <div className="blog__single-thumb topy-tilt">
                 <Link href="blog-single">
-                  <Image src={two} alt="Image" />
+                  <Image src={two} alt="Image" className="opacity-50"/>
                 </Link>
               </div>
               <div className="blog__single-content">

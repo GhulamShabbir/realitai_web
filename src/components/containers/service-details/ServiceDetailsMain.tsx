@@ -50,7 +50,7 @@ const ServiceDetailsMain = () => {
                           website or a full-blown e-commerce website.
                         </p>
                         <p>
-                          First we create sitemaps, user flows, and wireframes
+                          First we create sitemaps, user flows, and Overall Progresss
                           to hone your message and desired interaction. Then
                           comes our aesthetically remarkable designs. Every
                           design is optimized for mobile and desktop to create a

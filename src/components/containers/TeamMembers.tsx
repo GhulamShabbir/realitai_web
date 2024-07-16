@@ -9,8 +9,8 @@ import two from "../../../public/images/teams/two.png";
 import three from "../../../public/images/teams/three.png";
 import four from "../../../public/images/teams/four.png";
 import five from "../../../public/images/teams/five.png";
-import six from "../../../public/images/teams/six.png";
-import seven from "../../../public/images/teams/7.png";
+import six from "../../../public/images/teams/six.jpg";
+import seven from "../../../public/images/teams/7.jpg";
 
 const TeamMembers = () => {
   return (
@@ -54,7 +54,7 @@ const TeamMembers = () => {
             slidesPerGroup={1}
             speed={800}
             loop={true}
-            centeredSlides={false}
+            centeredSlides={true}
             modules={[Autoplay, Navigation]}
             autoplay={{
               delay: 5000,
@@ -97,7 +97,9 @@ const TeamMembers = () => {
                     >
                       <div className="info">
                         <p>
-                        Technical projects are managed, complex problems are solved, and high-performing teams are led by a seasoned senior engineer.
+                          Technical projects are managed, complex problems are
+                          solved, and high-performing teams are led by a
+                          seasoned senior engineer.
                         </p>
                       </div>
                       <h4>
@@ -132,19 +134,24 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">Vijay Singh</Link>
                       </h5>
                       <p>Sr. Product Designer</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                      User-centered designs are crafted, innovative products are developed, and design strategies are driven by a seasoned Sr. Product Designer.
+                        He has experience spanning multiple prestigious
+                        companies and a broad spectrum of technologies. With
+                        over a decade of hands-on experience in the industry,
+                        John has honed his skills in both front-end and back-end
+                        development, making him a versatile and invaluable asset
+                        to any development team.
                       </p>
                       <div className="skill-wrap">
                         <div className="skill-bar-single">
                           <div className="skill-bar-title">
-                            <p>Wireframe</p>
+                            <p>Overall Progress</p>
                           </div>
                           <div className="skill-bar-wrapper" data-percent="75%">
                             <div className="skill-bar">
@@ -156,9 +163,12 @@ const TeamMembers = () => {
                         </div>
                         <div className="skill-bar-single">
                           <div className="skill-bar-title">
-                            <p>Visual Design</p>
+                            <p>successful Projects</p>
                           </div>
-                          <div className="ski~ll-bar-wrapper" data-percent="90%">
+                          <div
+                            className="ski~ll-bar-wrapper"
+                            data-percent="90%"
+                          >
                             <div className="skill-bar">
                               <div className="skill-bar-percent">
                                 <span className="percent-value"></span>
@@ -168,8 +178,8 @@ const TeamMembers = () => {
                         </div>
                       </div>
                       <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        His ability to seamlessly integrate front-end and
+                        back-end systems,scalable software solutions.
                       </p>
                     </div>
                     <div className="social">
@@ -255,7 +265,7 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">Dr. Ghulam Shabbir</Link>
                       </h5>
                       <p>Sr. Product Designer</p>
                     </div>
@@ -269,7 +279,7 @@ const TeamMembers = () => {
                       <div className="skill-wrap">
                         <div className="skill-bar-single">
                           <div className="skill-bar-title">
-                            <p>Wireframe</p>
+                            <p>Overall Progress</p>
                           </div>
                           <div className="skill-bar-wrapper" data-percent="75%">
                             <div className="skill-bar">
@@ -281,7 +291,7 @@ const TeamMembers = () => {
                         </div>
                         <div className="skill-bar-single">
                           <div className="skill-bar-title">
-                            <p>Visual Design</p>
+                            <p>successful Projects</p>
                           </div>
                           <div className="skill-bar-wrapper" data-percent="90%">
                             <div className="skill-bar">
@@ -380,7 +390,7 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">Sardar Khan</Link>
                       </h5>
                       <p>Sr. Product Designer</p>
                     </div>
@@ -394,7 +404,7 @@ const TeamMembers = () => {
                       <div className="skill-wrap">
                         <div className="skill-bar-single">
                           <div className="skill-bar-title">
-                            <p>Wireframe</p>
+                            <p>Overall Progress</p>
                           </div>
                           <div className="skill-bar-wrapper" data-percent="75%">
                             <div className="skill-bar">
@@ -406,7 +416,7 @@ const TeamMembers = () => {
                         </div>
                         <div className="skill-bar-single">
                           <div className="skill-bar-title">
-                            <p>Visual Design</p>
+                            <p>successful Projects</p>
                           </div>
                           <div className="skill-bar-wrapper" data-percent="90%">
                             <div className="skill-bar">
@@ -505,21 +515,23 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">Rachelle Kristof</Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p>COORDINATOR & PROFESSOR, SOFTWARE ENGINEERING</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
+                        She is a Head Teacher of the Mathematics and Software
+                        Design & Development Faculty. Rachelle brings with her a
+                        wealth of experience and we are thrilled she will be
+                        sharing her expertise with colleagues across the world,
+                        as she leads this faculty in 2021.
                       </p>
                       <div className="skill-wrap">
                         <div className="skill-bar-single">
                           <div className="skill-bar-title">
-                            <p>Wireframe</p>
+                            <p>Overall Progress</p>
                           </div>
                           <div className="skill-bar-wrapper" data-percent="75%">
                             <div className="skill-bar">
@@ -531,7 +543,7 @@ const TeamMembers = () => {
                         </div>
                         <div className="skill-bar-single">
                           <div className="skill-bar-title">
-                            <p>Visual Design</p>
+                            <p>successful Projects</p>
                           </div>
                           <div className="skill-bar-wrapper" data-percent="90%">
                             <div className="skill-bar">
@@ -543,8 +555,8 @@ const TeamMembers = () => {
                         </div>
                       </div>
                       <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        She has also practical experiences to students and
+                        prepare them for their careers.
                       </p>
                     </div>
                     <div className="social">
@@ -630,23 +642,26 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">Mirha Ahmed</Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p>Sr. Grapic Designer</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
+                        Meet Mirha, your go-to professional personal assistant
+                        and expert graphic designer.She provide a wide range of
+                        graphic design services, including custom business
+                        flyers, digital artwork, logos, banners, brochures,
+                        Photoshop work, Illustrator graphics, e-book covers, and
+                        editing.
                       </p>
                       <div className="skill-wrap">
                         <div className="skill-bar-single">
                           <div className="skill-bar-title">
-                            <p>Wireframe</p>
+                            <p>Overall Progress ProgressProgressProgress</p>
                           </div>
-                          <div className="skill-bar-wrapper" data-percent="75%">
+                          <div className="skill-bar-wrapper" data-percent="85%">
                             <div className="skill-bar">
                               <div className="skill-bar-percent">
                                 <span className="percent-value"></span>
@@ -656,9 +671,9 @@ const TeamMembers = () => {
                         </div>
                         <div className="skill-bar-single">
                           <div className="skill-bar-title">
-                            <p>Visual Design</p>
+                            <p>Complete Project</p>
                           </div>
-                          <div className="skill-bar-wrapper" data-percent="90%">
+                          <div className="skill-bar-wrapper" data-percent="92%">
                             <div className="skill-bar">
                               <div className="skill-bar-percent">
                                 <span className="percent-value"></span>
@@ -668,8 +683,8 @@ const TeamMembers = () => {
                         </div>
                       </div>
                       <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        No matter what graphic service you need, She is here to
+                        assist you.
                       </p>
                     </div>
                     <div className="social">
@@ -755,21 +770,23 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">Wang Jianlin</Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p>Sr. Backend Developer</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
+                        He is a Proficient in Node.js, Laravel, PHP, and Python,
+                        he has a robust understanding of backend architecture
+                        and development. His expertise extends to databases,
+                        including SQL, PostgreSQL, MySQL, and MongoDB, ensuring
+                        efficient data management and retrieval.
                       </p>
                       <div className="skill-wrap">
                         <div className="skill-bar-single">
                           <div className="skill-bar-title">
-                            <p>Wireframe</p>
+                            <p>Overall Progress ProgressProgressPerformance</p>
                           </div>
                           <div className="skill-bar-wrapper" data-percent="75%">
                             <div className="skill-bar">
@@ -781,7 +798,7 @@ const TeamMembers = () => {
                         </div>
                         <div className="skill-bar-single">
                           <div className="skill-bar-title">
-                            <p>Visual Design</p>
+                            <p>Sucessful Projects</p>
                           </div>
                           <div className="skill-bar-wrapper" data-percent="90%">
                             <div className="skill-bar">
@@ -793,8 +810,8 @@ const TeamMembers = () => {
                         </div>
                       </div>
                       <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        He also integrating AI solutions into backend systems to
+                        enhance functionality and performance.
                       </p>
                     </div>
                     <div className="social">
@@ -880,21 +897,25 @@ const TeamMembers = () => {
                   <div className="content">
                     <div className="intro">
                       <h5>
-                        <Link href="team-single">Hershel J. Jackson</Link>
+                        <Link href="team-single">John Stiphan</Link>
                       </h5>
-                      <p>Sr. Product Designer</p>
+                      <p>Cloud Engineer</p>
                     </div>
                     <hr />
                     <div className="inner">
                       <p>
-                        Aenean sed fringilla purus, sed convallis sem. Morbi
-                        fringilla nulla tempus, cursus mauris in, placerat
-                        libero. Morbi tincidunt venenatis
+                        He is a highly skilled Cloud Engineer with over five
+                        years of experience in the tech industry. Specializing
+                        in AWS and Azure, John excels in designing and
+                        implementing scalable cloud infrastructure. Known for a
+                        keen problem-solving ability, John
+                        integrates innovative cloud solutions into the software
+                        development lifecycle.
                       </p>
                       <div className="skill-wrap">
                         <div className="skill-bar-single">
                           <div className="skill-bar-title">
-                            <p>Wireframe</p>
+                            <p>Overall Progress</p>
                           </div>
                           <div className="skill-bar-wrapper" data-percent="75%">
                             <div className="skill-bar">
@@ -906,7 +927,7 @@ const TeamMembers = () => {
                         </div>
                         <div className="skill-bar-single">
                           <div className="skill-bar-title">
-                            <p>Visual Design</p>
+                            <p>successful Projects</p>
                           </div>
                           <div className="skill-bar-wrapper" data-percent="90%">
                             <div className="skill-bar">
@@ -918,8 +939,9 @@ const TeamMembers = () => {
                         </div>
                       </div>
                       <p>
-                        Morbi non urna fringilla, luctus arcu vel, malesuada
-                        est. Vestibulum at lorem feugiat
+                        John stays abreast of the latest advancements in cloud
+                        technology, driving continuous improvement and
+                        innovation.
                       </p>
                     </div>
                     <div className="social">

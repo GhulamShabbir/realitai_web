@@ -132,7 +132,7 @@ const TeamDetailsMain = () => {
               <div className="skill-wrap">
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
-                    <p>Wireframe</p>
+                    <p>Overall Progress</p>
                   </div>
                   <div className="skill-bar-wrapper" data-percent="75%">
                     <div className="skill-bar">
@@ -144,7 +144,7 @@ const TeamDetailsMain = () => {
                 </div>
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
-                    <p>Visual Design</p>
+                    <p>successful Projects</p>
                   </div>
                   <div className="skill-bar-wrapper" data-percent="90%">
                     <div className="skill-bar">
@@ -156,7 +156,7 @@ const TeamDetailsMain = () => {
                 </div>
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
-                    <p>Wireframe</p>
+                    <p>Overall Progress</p>
                   </div>
                   <div className="skill-bar-wrapper" data-percent="75%">
                     <div className="skill-bar">
@@ -168,7 +168,7 @@ const TeamDetailsMain = () => {
                 </div>
                 <div className="skill-bar-single">
                   <div className="skill-bar-title">
-                    <p>Visual Design</p>
+                    <p>successful Projects</p>
                   </div>
                   <div className="skill-bar-wrapper" data-percent="90%">
                     <div className="skill-bar">

@@ -110,7 +110,7 @@ const ServiceMain = () => {
                         </h4>
                       </div>
                       <ul>
-                        <li>Hi-Fidelity Wireframe</li>
+                        <li>Hi-Fidelity Overall Progress</li>
                         <li>Design System</li>
                         <li>Final Presentation</li>
                         <li>Final Delivery</li>
@@ -222,7 +222,7 @@ const ServiceMain = () => {
                         </h4>
                       </div>
                       <ul>
-                        <li>Hi-Fidelity Wireframe</li>
+                        <li>Hi-Fidelity Overall Progress</li>
                         <li>Design System</li>
                         <li>Final Presentation</li>
                         <li>Final Delivery</li>

@@ -53,22 +53,27 @@ const HomeOneBanner = () => {
             <div className="col-12">
               <div className="banner__content">
                 <h1 className="text-uppercase text-start fw-9 mb-0 title-anim">
-                  We aspire to lead in <span className="text-stroke">IT & AI Training and Development in Islamabad, Pakistan,</span>
+                  We aspire to lead in{" "}
+                  <span className="text-stroke">
+                    IT & AI Training and Development.
+                  </span>
                   <span className="interval">
-                    <i className="icon-arrow-top-right"></i> empowering</span>
+                    <i className="icon-arrow-top-right"></i> empowering
+                  </span>
                   diverse businesses.
                 </h1>
 
                 <div className="banner__content-inner">
                   <p>
-                    
-Realitai is a IT & AI Training and Development Agency, specializing in providing
-comprehensive web, mobile, and Web3 UX design solutions across various businesses for improved performance metrics.
+                    Realitai is a IT & AI Training and Development Agency,
+                    specializing in providing comprehensive web, mobile, and
+                    Web3 UX design solutions across various businesses for
+                    improved performance metrics.
                   </p>
                   <div className="cta section__content-cta">
                     <div className="single">
                       <h5 className="fw-7">10+</h5>
-                      <p className="fw-5">years of experience</p>
+                      <p className="fw-5">years of experience</p> 
                     </div>
                     <div className="single">
                       <h5 className="fw-7">25k</h5>
@@ -83,7 +88,7 @@ comprehensive web, mobile, and Web3 UX design solutions across various businesse
         <Image
           src={banneronethumb}
           alt="Image"
-          className="banner-one-thumb d-none d-sm-block g-ban-one"
+          className="banner-one-thumb d-none d-sm-block g-ban-one opacity-50"
         />
         <Image src={star} alt="Image" className="star" />
         <div className="banner-left-text banner-social-text d-none d-md-flex">

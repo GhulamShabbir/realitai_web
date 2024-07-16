@@ -5,7 +5,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 //frompublic
- let dawn = "/images/banner/dawn.png";
+let dawn = "/images/banner/dawn.png";
 
 gsap.registerPlugin(ScrollTrigger);
 const HomeTwoBanner = () => {
@@ -67,14 +67,16 @@ const HomeTwoBanner = () => {
               </div>
               <div className="banner-two__content">
                 <h1 className="title-anim">
-                  THE <span>IT & AI Training and Development</span> AGENCY FOR EXCELLENT SERVICES
+                  THE <span>IT & AI Training and Development</span> AGENCY FOR
+                  EXCELLENT SERVICES
                 </h1>
                 <div className="banner-two__content-cta section__content-cta">
                   <div className="paragraph">
                     <p>
-                      
-Realitai is an IT & AI Training and Development Agency, specializing in providing
-comprehensive web, mobile, and Web3 UX design solutions across various businesses for improved performance metrics.
+                      Realitai is an IT & AI Training and Development Agency,
+                      specializing in providing comprehensive web, mobile, and
+                      Web3 UX design solutions across various businesses for
+                      improved performance metrics.
                     </p>
                   </div>
                   <div className="arrow-wrapper d-none d-lg-block">
