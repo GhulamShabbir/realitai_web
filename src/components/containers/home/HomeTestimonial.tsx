@@ -5,8 +5,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import sthumb from "../../../../public/images/testimonial/4609189.jpg";
-import sthumbtwo from "../../../../public/images/testimonial/7457039.jpg";
-import sthumbthree from "../../../../public/images/testimonial/6042016.jpg";
+import sthumbtwo from "../../../../public/images/testimonial/7457039.png";
+import sthumbthree from "../../../../public/images/testimonial/6042016.png";
 
 const HomeTestimonial = () => {
   const [nextSlideIndex, setNextSlideIndex] = useState<number>(1);
@@ -159,16 +159,20 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                              Working with John and his team was a game-changer
+                              for our business. They developed a custom
+                              e-commerce platform that exceeded our
+                              expectations. The project was delivered on time,
+                              within budget, and with outstanding attention to
+                              detail. Their expertise in full-stack development
+                              truly shines through in the final product, which
+                              has significantly boosted our sales and customer
+                              engagement."
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5>Dr. Sarah Johnson</h5>
+                            <p>CEO of Shere Care Medical</p>
                           </div>
                         </div>
                       </div>
@@ -203,16 +207,16 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                              Realitai team developed a complex financial
+                              application for us.The robust and secure system
+                              they delivered has become a cornerstone of our
+                              operations. We couldn't be more pleased with the
+                              results.
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5>Michael Thompson</h5>
+                            <p>CTO of FinTech Innovations</p>
                           </div>
                         </div>
                       </div>
@@ -247,20 +251,23 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              posuere luctus orci. Donec vitae mattis quam,
-                              vitae tempor arcu. Aenean non odio porttitor,
-                              convallis erat sit amet, facilisis velit. Nulla
-                              ornare convallis malesuada. Phasellus molestie,
-                              ipsum ac fringilla.
+                              Realitai,Coding Bootcamp Graduate "Taking AI Cloud
+                              Engineering course was one of the best decisions
+                              I've made for my career. The teaching style of the
+                              fucalty was engaging, and Thay have a knack for
+                              making even the most challenging topics
+                              accessible. The skills and knowledge I gained from
+                              his classes have directly contributed to my
+                              success as a software developer.
                             </h4>
                           </div>
                           <div className="content-cta">
-                            <h5>Daniel Smith</h5>
-                            <p>Senior engineer</p>
+                            <h5>Rachel Martinez</h5>
+                            <p>Student in Software Engineering</p>
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div>            
                   </div>
                 </SwiperSlide>
               </Swiper>
@@ -289,8 +296,8 @@ const HomeTestimonial = () => {
             nextSlideIndex === 0
               ? sthumb
               : nextSlideIndex === 1
-                ? sthumbtwo
-                : sthumbthree
+              ? sthumbtwo
+              : sthumbthree
           }
           alt="Next Slide Image"
         />

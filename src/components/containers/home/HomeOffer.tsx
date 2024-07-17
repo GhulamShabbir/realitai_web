@@ -98,7 +98,7 @@ const HomeOffer = () => {
                 </span>
                 <h2>
                   <Link href="service-single">
-                    digital marketing
+                    IT & Telecom Network Infrastructure
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
@@ -113,7 +113,7 @@ const HomeOffer = () => {
                 </span>
                 <h2>
                   <Link href="service-single">
-                    product design
+                    Generative AI Training & Development
                     <i className="fa-sharp fa-solid fa-arrow-up-right"></i>
                   </Link>
                 </h2>
