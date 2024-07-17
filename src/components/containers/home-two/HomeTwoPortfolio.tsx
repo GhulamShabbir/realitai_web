@@ -4,21 +4,11 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-
-//frompublic
- let one = "/images/portfolio/one.webp";
-
-//frompublic
- let two = "/images/portfolio/two.webp";
-
-//frompublic
- let three = "/images/portfolio/three.jpg";
-
-//frompublic
- let four = "/images/portfolio/four.webp";
-
-//frompublic
- let five = "/images/portfolio/five.webp";
+import one from "public/images/portfolio/one.webp";
+import two from "public/images/portfolio/two.webp";
+import three from "public/images/portfolio/three.jpg";
+import four from "public/images/portfolio/four.webp";
+import five from "public/images/portfolio/five.webp";
 
 const HomeTwoPortfolio = () => {
   const [activeFilter, setActiveFilter] = useState("*");

@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
-//frompublic
- let star = "/images/testimonial/star.png";
+import star from "public/images/testimonial/star.png";
 
 const HomeTwoCta = () => {
   return (

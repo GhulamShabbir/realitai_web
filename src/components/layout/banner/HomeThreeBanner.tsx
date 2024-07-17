@@ -5,15 +5,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import YoutubeEmbed from "@/components/youtube/YoutubeEmbed";
-
-//frompublic
- let videobg = "/images/banner/video-bg.png";
-
-//frompublic
- let dotlarge = "/images/agency/dot-large.png";
-
-//frompublic
- let arrow = "/images/banner/arrow.png";
+import videobg from "public/images/banner/video-bg.png";
+import dotlarge from "public/images/agency/dot-large.png";
+import arrow from "public/images/banner/arrow.png";
 
 const HomeThreeBanner = () => {
   const [videoActive, setVideoActive] = useState(false);

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import thumb from "public/images/faq-thumb.png";
 
 const FaqMain = () => {
   const [imgTab, setImgTab] = useState(0);
@@ -9,7 +10,7 @@ const FaqMain = () => {
         <div className="row gaper">
           <div className="col-12 col-lg-6">
             <div className="faq__thumb fade-left">
-              <Image src={"/images/faq-thumb.png"} alt="Image" />
+              <Image src={thumb} alt="Image" />
             </div>
           </div>
           <div className="col-12 col-lg-6">

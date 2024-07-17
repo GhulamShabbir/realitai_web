@@ -1,12 +1,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-
-//frompublic
- let dotlarge = "/images/agency/dot-large.png";
-
-//frompublic
- let one = "/images/service/one1.png";
+import dotlarge from "public/images/agency/dot-large.png";
+import one from "public/images/service/one1.png";
 
 const HomeThreeServicesLight = () => {
   const [imgTab, setImgTab] = useState(0);
