@@ -159,7 +159,7 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              Working with John and his team was a game-changer
+                              {`Working with John and his team was a game-changer
                               for our business. They developed a custom
                               e-commerce platform that exceeded our
                               expectations. The project was delivered on time,
@@ -167,7 +167,7 @@ const HomeTestimonial = () => {
                               detail. Their expertise in full-stack development
                               truly shines through in the final product, which
                               has significantly boosted our sales and customer
-                              engagement."
+                              engagement.`}
                             </h4>
                           </div>
                           <div className="content-cta">
@@ -207,11 +207,11 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              Realitai team developed a complex financial
+                              {`Realitai team developed a complex financial
                               application for us.The robust and secure system
                               they delivered has become a cornerstone of our
                               operations. We couldn't be more pleased with the
-                              results.
+                              results.`}
                             </h4>
                           </div>
                           <div className="content-cta">
@@ -251,14 +251,14 @@ const HomeTestimonial = () => {
                           </div>
                           <div className="content">
                             <h4>
-                              Realitai,Coding Bootcamp Graduate "Taking AI Cloud
+                            {`Realitai,Coding Bootcamp Graduate "Taking AI Cloud
                               Engineering course was one of the best decisions
                               I've made for my career. The teaching style of the
                               fucalty was engaging, and Thay have a knack for
                               making even the most challenging topics
                               accessible. The skills and knowledge I gained from
                               his classes have directly contributed to my
-                              success as a software developer.
+                              success as a software developer.`}
                             </h4>
                           </div>
                           <div className="content-cta">
