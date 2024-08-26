@@ -272,13 +272,13 @@ const PortfolioText = () => {
           </div>
         </div>
       </div>
-      <div className="lines d-none d-lg-flex">
+      {/* <div className="lines d-none d-lg-flex">
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
         <div className="line"></div>
-      </div>
+      </div> */}
     </section>
   );
 };

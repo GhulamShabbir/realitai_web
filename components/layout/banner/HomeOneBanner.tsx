@@ -51,33 +51,43 @@ const HomeOneBanner = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="banner__content">
-                <h1 className="text-uppercase text-start fw-9 mb-0 title-anim">
-                  We aspire to lead in{" "}
-                  <span className="text-stroke">
-                    AI Training and Development
-                  </span>
-                  <span className="interval">
-                    <i className="icon-arrow-top-right"></i> empowering
-                  </span>
-                  diverse businesses.
-                </h1>
+              <div
+                className="banner-three__slider-single"
+                style={{
+                  backgroundImage: "url('/images/banner/multitenancy.png')",
+                  // height: "100vh",
+                  // objectFit: "cover",
+                  // position: "relative",
+                }}
+              >
+                <div className="banner__content">
+                  <h1 className="text-uppercase text-start fw-9 mb-0 title-anim">
+                    We aspire to lead in{" "}
+                    <span className="text-stroke">
+                      AI Training and Development
+                    </span>
+                    <span className="interval">
+                      <i className="icon-arrow-top-right"></i> empowering
+                    </span>
+                    diverse businesses.
+                  </h1>
 
-                <div className="banner__content-inner">
-                  <p>
-                    Realitai is a IT & AI Training and Development Agency,
-                    specializing in providing comprehensive web, mobile, and
-                    Web3 UX design solutions across various businesses for
-                    improved performance metrics.
-                  </p>
-                  <div className="cta section__content-cta">
-                    <div className="single">
-                      <h5 className="fw-7">10+</h5>
-                      <p className="fw-5">years of experience</p>
-                    </div>
-                    <div className="single">
-                      <h5 className="fw-7">25k</h5>
-                      <p className="fw-5">completed projects</p>
+                  <div className="banner__content-inner">
+                    <p>
+                      Realitai is a IT & AI Training and Development Agency,
+                      specializing in providing comprehensive web, mobile, and
+                      Web3 UX design solutions across various businesses for
+                      improved performance metrics.
+                    </p>
+                    <div className="cta section__content-cta">
+                      <div className="single">
+                        <h5 className="fw-7">10+</h5>
+                        <p className="fw-5">years of experience</p>
+                      </div>
+                      <div className="single">
+                        <h5 className="fw-7">25k</h5>
+                        <p className="fw-5">completed projects</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -85,11 +95,7 @@ const HomeOneBanner = () => {
             </div>
           </div>
         </div>
-        <Image
-          src={banneronethumb}
-          alt="Image"
-          className="banner-one-thumb d-none d-sm-block g-ban-one"
-        />
+
         <Image src={star} alt="Image" className="star" />
         <div className="banner-left-text banner-social-text d-none d-md-flex">
           <Link href="mailto:info../..realitai.com">
@@ -108,20 +114,20 @@ const HomeOneBanner = () => {
             facebook
           </Link>
         </div>
-        <button
+        {/* <button
           className="video-frame video-btn"
           onClick={() => setVideoActive(true)}
         >
           <Image src={videoframe} alt="Image" priority />
           <i className="fa-sharp fa-solid fa-play"></i>
-        </button>
-        <div className="lines d-none d-lg-flex">
+        </button> */}
+        {/* <div className="lines d-none d-lg-flex">
           <div className="line"></div>
           <div className="line"></div>
           <div className="line"></div>
           <div className="line"></div>
           <div className="line"></div>
-        </div>
+        </div> */}
       </section>
       <div
         className={(videoActive ? " video-zoom-in" : " ") + " video-backdrop"}

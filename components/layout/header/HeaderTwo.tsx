@@ -88,9 +88,9 @@ const HeaderTwo = ({ openNav, handleNav, setOpenNav }: HeaderProps) => {
                             <Link href="index-three">IT Solution</Link>
                           </li>
                           <li>
-                            {/* <Link href="index-three-light">
+                            <Link href="index-three-light">
                               It Solution Light
-                            </Link> */}
+                            </Link>
                           </li>
                           <li>
                             <Link href="index-four">Personal Portfolio</Link>

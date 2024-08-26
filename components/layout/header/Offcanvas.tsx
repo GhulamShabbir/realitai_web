@@ -152,9 +152,9 @@ const Offcanvas = ({ openNav, setOpenNav }: HeaderProps) => {
                     <li>
                       <Link href="faq">FAQ</Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="404">Error</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link href="our-story">Our Story</Link>
                     </li>

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import three from "../../../public/images/blog/three.png";
+import three from "../../../public/images/blog/three1.png";
 import four from "../../../public/images/blog/four.png";
 import five from "../../../public/images/blog/five.png";
 
