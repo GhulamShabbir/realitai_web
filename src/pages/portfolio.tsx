@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from "@/components/layout/Layout";
-import CmnBanner from "@/components/layout/banner/CmnBanner";
-import PortfolioMain from "@/components/containers/PortfolioMain";
+import Layout from "../../components/layout/Layout";
+import CmnBanner from "../../components/layout/banner/CmnBanner";
+import PortfolioMain from "../../components/containers/PortfolioMain";
 
 const OurPortfolio = () => {
   return (
