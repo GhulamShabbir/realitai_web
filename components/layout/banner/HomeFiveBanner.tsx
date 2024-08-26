@@ -53,7 +53,7 @@ const HomeFiveBanner = () => {
             </div>
             <div className="content">
               <h4>
-                <Link href="project-single">Kaizen Psychology</Link>
+                <Link href="project-single">Kaizen000 Psychology</Link>
               </h4>
             </div>
           </div>
