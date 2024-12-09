@@ -1,11 +1,11 @@
 import React from "react";
-import Layout from "@/components/layout/Layout";
-import CmnBanner from "@/components/layout/banner/CmnBanner";
-import ServiceMain from "@/components/containers/ServiceMain";
-import HomeTwoModal from "@/components/containers/home-two/HomeTwoModal";
-import UxProcessTwo from "@/components/containers/service-details/UxProcessTwo";
-import HomeTestimonialThree from "@/components/containers/home-three/HomeTestimonialThree";
-import CtaTwo from "@/components/containers/service-details/CtaTwo";
+import Layout from "../../components/layout/Layout";
+import CmnBanner from "../../components/layout/banner/CmnBanner";
+import ServiceMain from "../../components/containers/ServiceMain";
+import HomeTwoModal from "../../components/containers/home-two/HomeTwoModal";
+import W3ProcssTwo from "../../components/containers/service-details/W3ProcessTwo";
+import HomeTestimonialThree from "../../components/containers/home-three/HomeTestimonialThree";
+import CtaTwo from "../../components/containers/service-details/CtaTwo";
 
 const OurServices = () => {
   return (
@@ -13,7 +13,7 @@ const OurServices = () => {
       <CmnBanner title="Our Services" navigation="Our Services" />
       <ServiceMain />
       <HomeTwoModal />
-      <UxProcessTwo />
+      <W3ProcssTwo />
       <HomeTestimonialThree />
       <CtaTwo />
     </Layout>

@@ -1,8 +1,8 @@
 import React from "react";
-import Layout from "@/components/layout/Layout";
-import CmnBanner from "@/components/layout/banner/CmnBanner";
-import ProjectDetailsMain from "@/components/containers/project/ProjectDetailsMain";
-import UxProcess from "@/components/containers/service-details/UxProcess";
+import Layout from "../../components/layout/Layout";
+import CmnBanner from "../../components/layout/banner/CmnBanner";
+import ProjectDetailsMain from "../../components/containers/project/ProjectDetailsMain";
+import W3Procss from "../../components/containers/service-details/W3Process";
 
 const ProjectDetails = () => {
   return (
@@ -14,7 +14,7 @@ const ProjectDetails = () => {
         parentLink="our-projects"
       />
       <ProjectDetailsMain />
-      <UxProcess />
+      <W3Procss />
     </Layout>
   );
 };

@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from "@/components/layout/Layout";
-import HomeFiveBanner from "@/components/layout/banner/HomeFiveBanner";
-import HomeTestimonial from "@/components/containers/home/HomeTestimonial";
+import Layout from "../../components/layout/Layout";
+import HomeFiveBanner from "../../components/layout/banner/HomeFiveBanner";
+import HomeTestimonial from "../../components/containers/home/HomeTestimonial";
 
 const HomeFive = () => {
   return (
@@ -11,5 +11,4 @@ const HomeFive = () => {
     </Layout>
   );
 };
-
 export default HomeFive;

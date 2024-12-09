@@ -1,9 +1,9 @@
 import React from "react";
-import Layout from "@/components/layout/Layout";
-import CmnBanner from "@/components/layout/banner/CmnBanner";
-import ProjectMain from "@/components/containers/project/ProjectMain";
-import WorkStepsProject from "@/components/containers/project/WorkStepsProject";
-import CtaTwo from "@/components/containers/service-details/CtaTwo";
+import Layout from "../../components/layout/Layout";
+import CmnBanner from "../../components/layout/banner/CmnBanner";
+import ProjectMain from "../../components/containers/project/ProjectMain";
+import WorkStepsProject from "../../components/containers/project/WorkStepsProject";
+import CtaTwo from "../../components/containers/service-details/CtaTwo";
 
 const OurProjects = () => {
   return (
